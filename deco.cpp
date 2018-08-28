@@ -94,7 +94,7 @@ void Codificar::mostrarDato(){
 void Codificar::newCodigo(char palabra[]){
 	char a[100];int aux=0,aux2=24,t=0,total=0;strcpy(a,palabra);
 	for(int i=0;i<10;i++){vec[i]=0;}
-//	strlen(a) da el tamaño de la cadena
+//	strlen(a) da el tamaÃ±o de la cadena
 	int vector[strlen(a)];
 	unsigned long int numero[10];
 	
@@ -142,7 +142,7 @@ void Codificar::newMascara(){
 		  case 1:do{
 		  cout<<"Ingrese numero"<<endl;
 		  cin.sync();cin>>as;vec[j]=as;
-		  cout<<"Desea ingresear otro numero?¿ "<<"si 2-no 1"<<endl;cin.sync();cin>>c;j++;
+		  cout<<"Desea ingresear otro numero?Â¿ "<<"si 2-no 1"<<endl;cin.sync();cin>>c;j++;
 	      }while(c!=1);break;
 	      case 2:
 	      	cout<<"1) Numero de suerte"<<endl;
@@ -159,19 +159,19 @@ void Codificar::newMascara(){
                     vec[4]=1835343930;
                     vec[5]=1444937728;break;
                 case 2:
-                	vec[0]=1835099253;
-					vec[1]=1919885409;
-					vec[2]=1937006880;
-					vec[3]=1701584946;
-					vec[4]=808792064;break;
+                    vec[0]=1835099253;
+		    vec[1]=1919885409;
+		    vec[2]=1937006880;
+		    vec[3]=1701584946;
+		    vec[4]=808792064;break;
 				case 3:
-					vec[0]=1886745711;
-					vec[1]=543517728;
-					vec[2]=1903519008;
-					vec[3]=1819222124;
-					vec[4]=1700864120;
-					vec[5]=1142947840;break;
-				case 4:break;
+		    vec[0]=1886745711;
+		    vec[1]=543517728;
+		    vec[2]=1903519008;
+		    vec[3]=1819222124;
+		    vec[4]=1700864120;
+		    vec[5]=1142947840;break;
+		case 4:break;
 			}break;
 	        case 3:break;
 		}

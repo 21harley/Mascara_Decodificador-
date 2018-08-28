@@ -211,7 +211,7 @@ Codificar::~Codificar()
 int main(int argc, char** argv) {
 	
     char letra[100];
-    cout<<"Ingrese palabras"<<endl;
+    cout<<"Ingrese palabras que quiere en mascarar "<<endl;
 	cin.sync();cin.getline(letra,99);
 	Codificar au;
 	au.Cod(letra);

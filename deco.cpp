@@ -34,7 +34,6 @@ void Codificar::Cod(char palabra[]){
 	unsigned long int numero[10];
 	
 	for(int i=0;i<10;i++){numero[i]=0;}
-	cout<<strlen(a)<<endl;
 	for(int i=0;i<strlen(a);i++){
 		if(a[i]!=NULL){
 //			cout<<a[i]<<endl;
@@ -53,7 +52,7 @@ void Codificar::Cod(char palabra[]){
 			aux2-=8;
 //			cout<<"numero :"<<numero[t]<<"-aux"<<aux2<<endl;
 			}else{
-				t++;aux2=24;
+			t++;aux2=24;
 //			cout<<vector[i]<<" "<<i<<endl;
 			numero[t]=numero[t]|(vector[i]<<aux2);
 			aux2-=8;

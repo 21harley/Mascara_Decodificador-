@@ -151,8 +151,8 @@ void Codificar::newMascara(){
 	      	cout<<"4) salir"<<endl;
 	      	cin.sync();cin>>rt;
 	        switch(rt){
-	        	case 1:
-	        		vec[0]=1903519008;   		
+	        case 1:
+	            vec[0]=1903519008;   		
                     vec[1]=1701604449;
                     vec[2]=544108320;
                     vec[3]=1952784481;
@@ -164,7 +164,7 @@ void Codificar::newMascara(){
 		    vec[2]=1937006880;
 		    vec[3]=1701584946;
 		    vec[4]=808792064;break;
-				case 3:
+		case 3:
 		    vec[0]=1886745711;
 		    vec[1]=543517728;
 		    vec[2]=1903519008;
